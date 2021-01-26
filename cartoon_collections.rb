@@ -11,9 +11,10 @@ end
 end
 
 def long_planeteer_calls(planeteer_calls)
+  answer = false
   planeteer_calls.each |count|
   if count.length > 4
-    answer = TRUE
+    answer = true
   end
   answer
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
