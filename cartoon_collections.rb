@@ -12,7 +12,7 @@ end
 
 def long_planteer_calls(long_planteer_calls)
   long_planteer_calls.any? |four|
-  four.any? 
+  four.length > 4
 end
 
 def find_valid_calls(planeteer_calls)
