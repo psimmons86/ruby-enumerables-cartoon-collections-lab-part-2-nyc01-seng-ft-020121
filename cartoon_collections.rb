@@ -11,7 +11,7 @@ end
 end
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.select |count|
+  planeteer_calls.each |count|
   if count.length > 4
     answer = TRUE
   end
