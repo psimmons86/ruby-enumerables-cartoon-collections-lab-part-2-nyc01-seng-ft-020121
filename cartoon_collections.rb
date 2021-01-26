@@ -12,7 +12,7 @@ end
 
 def long_planteer_calls(long_planteer_calls)
   answer = false
-  long_planteer_calls.select do |call|
+  long_planteer_calls.map do |call|
     if call.length > 4
       answer = true
     end
