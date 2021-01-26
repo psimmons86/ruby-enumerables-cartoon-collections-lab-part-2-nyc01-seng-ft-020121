@@ -13,8 +13,6 @@ end
 def long_planteer_calls(long_planteer_calls)
   long_planteer_calls.any? { |four| 4.length>4 }
 end
-  
-end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
