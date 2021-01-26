@@ -22,9 +22,7 @@ def long_planeteer_calls(long_planeteer_calls)# code an argument here
 end
 
 def find_valid_calls(planeteer_calls)
-  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  def find_the_cheese(cheesy_items)
-  cheeses_type = ["cheddar", "gouda", "camembert"]
+ valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
   cheesy_items.find do |maybe_cheese|
     cheeses_type.include?(maybe_cheese)
