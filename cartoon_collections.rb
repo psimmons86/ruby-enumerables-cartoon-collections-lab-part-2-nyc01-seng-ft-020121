@@ -12,7 +12,7 @@ end
 
 def long_planteer_calls(long_planteer_calls)
   answer = false
-  long_planteer_calls.any? |four|
+  long_planteer_calls.any? { |four| 
     if call.length > 4
       answer = true
     end
