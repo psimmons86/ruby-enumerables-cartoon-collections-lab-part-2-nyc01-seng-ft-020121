@@ -10,16 +10,14 @@ def summon_captain_planet(planeteer_calls)
 end
 end
 
-def long_planeteer_calls(planeteer_calls)
+def long_planteer_calls(long_planteer_calls)
   answer = false
-  planeteer_calls.each |count|
-  if count.length > 4
-    answer = true
+  long_planteer_calls.each do |cap|
+    if cap.length > 4
+      answer = true
+    end
   end
-end
-  answer
-  # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
-  # Return the boolean result of this check
+    answer
 end
 
 def find_valid_calls(planeteer_calls)
