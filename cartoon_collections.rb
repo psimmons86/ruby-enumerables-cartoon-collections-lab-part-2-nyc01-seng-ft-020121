@@ -23,7 +23,10 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  
-  # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
-  # Return the first valid call found, or return nil if no valid calls are found
+  def find_the_cheese(cheesy_items)
+  cheeses_type = ["cheddar", "gouda", "camembert"]
+
+  cheesy_items.find do |maybe_cheese|
+    cheeses_type.include?(maybe_cheese)
+  end
 end
